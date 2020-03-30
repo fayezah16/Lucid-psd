@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+	background-color: #15151a;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand img{
+    width: 90%;
+}
+
+.navbar h1{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+
+
+}
+
+.navbar span{
+	color: white; 
+	width: 40px; 
+	text-transform: uppercase; 
+	font-size: 10px; 
+	color: #5b5a5c;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 5px;
+}
+
+
+
+.toggle{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-weight: 600;
+	background-color: #16151b;
+	
+
+}
+
+.banner{
+	background-image: url(../images/bg1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 85vh;
+}
+
+
+.hg{
+	
+}
+
+.content{
+   
+
+}
+
+.content h1{
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-left: 15px;
+   margin-top: 10px;
+   
+
+}
+
+.content h5{
+   color: #0476b1;
+   font-size: 15px;
+   font-weight: 200;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 140px;
+   margin-left: 15px;
+
+   
+
+}
+
+.content p{
+	color: #999999;
+	font-size: 15px;
+	margin-top: 25px;
+	margin-left: 17px;
+	width: 500px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.btn-custom{
+	background: black;
+	border: none;
+    margin-top: 40px;
+    margin-left: 230px;
+
+
+}
+
+.btn-custom:hover{
+	background: #15a4fa;
+
+}
+
+
+.features{
+
+	background: white;
+	margin-top: 30px;
+
+}
+
+.features h3{
+   color: black;
+   font-size: 30px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 10px;
+	
+}
+
+.features span{
+   color: #008ed6;
+   font-size: 14px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-transform: uppercase;
+   margin-bottom: 35px;
+}
+
+.features p{
+	color: black;
+	font-size: 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+
+}
+
+
+.icon-box{
+   height: 65px;
+   width: 65px;
+   margin: auto;
+   font-size: 25px;
+   text-align: center;
+   line-height: 200px;
+   color: #008ed6;
+   margin-top: 30px;
+   border: solid;
+   border-radius: 50px;
+  
+}
+
+
+
+.feature-content h4{
+	color: #1a1a1a;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 20px;
+
+
+}
+
+.feature-content p{
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+.details{
+    /*
+    background-image: url(../images/device.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    padding: 100px 0;
+    margin-left: 100px;
+    margin-top: 100px;
+    */
+    width: 100%;
+    padding: 80px 0;
+
+     
+}
+*/
+
+.details h2{
+   color: black;
+   font-size: 30px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 10px;
+
+
+	
+}
+
+.details h6{
+
+   color: #008ed6;
+   font-size: 14px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-transform: uppercase;
+   margin-top: 45px;
+
+}
+
+
+.details p{
+
+   color: #a0a0a0;
+   font-size: 16px;
+   margin-top: 20px;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.details ul{
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+.details ul li{
+	list-style: none;
+	display: block;
+	font-size: 16px;
+	color: #000;
+	line-height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+	
+}
+
+.details ul li .fas{
+    	
+    
+	margin-right: 10px;
+	color: #4fb1e3;
+}
+
+.details ul li .far{
+	
+	margin-right: 5px;
+	color: #4fb1e3;
+}
+
+
+.custom{
+	/*
+    background-image: url(../images/mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    padding: 100px 0;
+    margin: 100px 0;
+    */
+    background-color: #f2f2f2;
+    padding:50px 0;
+    width: 100%;
+
+    
+
+}
+
+.custom custom-img{
+	margin-top: 20px;
+}
+
+.custom h1{
+   color: black;
+   font-size: 30px;
+   font-weight: 600;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-left: 10px;
+   margin-top: 10px;
+   
+
+}
+
+.custom h5{
+   color: #008ed6;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 50px;
+   margin-left: 10px;
+   text-transform: uppercase;
+
+   
+
+}
+
+.custom p{
+	color: #a0a0a0;
+	font-size: 15px;
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 450px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.banner2{
+	background-image: url(../images/bg2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 90vh;
+}
+
+.banner h2{
+   color: black;
+   font-size: 30px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 10px;
+
+
+	
+}
+
+.banner2 h6{
+
+   color: #008ed6;
+   font-size: 14px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-transform: uppercase;
+   margin-top: 45px;
+
+}
+
+
+
+
+
+
+
+
+.hg{
+	height: 600px;
+}
+
+.content{
+   text-align: left;
+
+
+
+}
+
+.content h1{
+   color: white;
+   font-size: 50px;
+   font-weight: 600;
+   font-style: bold;
+
+}
+
+
+
+.contactus{
+
+	background: #ededed;
+	margin-top: 30px;
+	padding-bottom: 200px;
+
+}
+
+.contactus h3{
+   color: black;
+   font-size: 30px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 10px;
+	
+}
+
+.contactus span{
+   color: #008ed6;
+   font-size: 14px;
+   font-weight: 550;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-transform: uppercase;
+   margin-bottom: 35px;
+}
+
+.contactus p{
+	color: black;
+	font-size: 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+
+}
+
+
+.icon-box2{
+   height: 65px;
+   width: 65px;
+   margin: auto;
+   font-size: 35px;
+   text-align: center;
+   line-height: 200px;
+   color: #008ed6;
+   margin-top: 20px;
+   
+  
+}
+
+
+
+.contactus-content h4{
+	color: #1a1a1a;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 20px;
+
+
+}
+
+.contactus-content p{
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+footer{
+    padding: 15px;
+    background-color: black;
+}
+
+footer .social{
+	margin-top: 15px;
+}
+
+
+footer .social li{
+	text-decoration: none;
+	display: inline;
+
+
+}
+
+footer .social ul li .fab{
+    color: #424145;
+    padding-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
